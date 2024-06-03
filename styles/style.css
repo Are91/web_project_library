@@ -43,13 +43,10 @@
   font-weight: bold;
 }
 
-
-
 .header__content {
   display: flex;
   justify-content: space-between;
 }
-
 
 .header__title {
   font-size: 62px;
@@ -89,14 +86,12 @@
   color: #838383;
 }
 
-
-.staff{
+.staff {
   background-image: url("../images/staff_picks_background.jpg");
   padding: 100px 0 140px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 
 .staff__title {
@@ -106,7 +101,6 @@
   font-weight: 400;
   margin: 0 0 24px;
   color: #ffffff;
-
 }
 
 .staff__subtitle {
@@ -118,7 +112,7 @@
   color: #ffffff;
 }
 
-.staff__cards{
+.staff__cards {
   max-width: 760px;
   margin: 68px auto 0;
   display: flex;
@@ -127,7 +121,6 @@
   list-style-type: none;
   gap: 40px;
   padding-left: 0;
-
 }
 
 .card {
@@ -168,7 +161,6 @@
   margin-left: 0;
   margin-right: 0;
 }
-
 
 .events {
   padding: 100px 0 120px 80px;
@@ -254,36 +246,32 @@
 
 .person_name_feynman {
   position: absolute;
-  bottom: 319px;
-  left: -30px;
-  top: -40px;
-  right: 10px;
+  right: 319px;
+  top: -30px;
 }
 
 .person_name_burbidge {
   position: absolute;
-  bottom: 96px;
-  left: 550px;
-  top: 10px;
   right: 125px;
+  top: 96px;
 }
 
 .person_name_cannon {
   position: absolute;
-  bottom: -50px;
-  right: 207px;
+  right: 216px;
+  bottom: 18px;
 }
 
 .person_name_mitchell {
   position: absolute;
-  bottom: -10px;
-  left: 90px;
+  left: 142px;
+  bottom: 82px;
 }
 
 .person_name_tarter {
   position: absolute;
-  top: 10px;
-  left: 120px;
+  top: 79px;
+  left: 159px;
 }
 
 .person__image {
